@@ -1,7 +1,7 @@
 {
-  "name": "telegram_bot",
+  "name": "telegram_video_downloader_bot",
   "version": "1.0.0",
-  "description": "Telegram bot",
+  "description": "Telegram bot for download video",
   "main": "build/bot.js",
   "author": "HBashanaE",
   "license": "MIT",
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "telegraf": "^4.11.2"
+    "telegraf": "^4.11.2",
+    "youtube-dl-exec": "^2.1.10"
   },
   "scripts": {
     "build": "npx tsc",
